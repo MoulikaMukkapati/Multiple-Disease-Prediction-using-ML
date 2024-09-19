@@ -21,14 +21,7 @@ This webApp is developed using Flask.This webApp predicts following diseases<br>
 <br>2.Open command prompt in the downloaded folder.<br>
 <br>3.Create a virtual environment<br>
 <br>4.Install all the dependencies using this command in your command prompt:
-function CopyText() {
-  const clipboard = useClipboard();
-  return (
-    <div>
-      <input ref={clipboard.target} />
-      <button onClick={clipboard.copy}>pip install -r requirements.txt</button>
-    </div>
-  );
+<button onClick={() => clipboard.copy('pip install -r requirements.txt')} />;    
 }
 }<p align="center">pip install -r requirements.txt</p><br>
 <br>5.Run the application using this command:
