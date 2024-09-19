@@ -10,13 +10,13 @@ This webApp is developed using Flask.This webApp predicts following diseases<br>
 
 <h2><b>Models with their accuracy</b></h2>
 Tables
-|Disease       |Model                   | Accuracy
-|--------------|------------------------|------
-|Diabetes	     |Machine Learning Model	| 95.25%
-|--------------|------------------------|-----------
-|Parkinsons    |Machine Learning Model	| 97.44%
-|--------------|------------------------|-----------
-|Heart Disease |Machine Learning Model  | 97.56%
+|Disease       |Model                   | Accuracy|
+|--------------|------------------------|---------|
+|Diabetes	     |Machine Learning Model	| 95.25%--|
+|--------------|------------------------|---------|
+|Parkinsons    |Machine Learning Model	| 97.44%  |
+|--------------|------------------------|---------|
+|Heart Disease |Machine Learning Model  | 97.56%  |
 
 <h2><b>Steps to run this application in your system</b></h2>
 
@@ -27,8 +27,10 @@ Tables
 ```bash
 pip install -r requirements.tx
 ```
-
 <br>5.Run the application using this command:
+```bash
+python app.py
+```
 
 
 
