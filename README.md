@@ -10,10 +10,10 @@ This webApp is developed using Flask.This webApp predicts following diseases<br>
 
 <h2><b>Models with their accuracy</b></h2>
 
-<br>Disease&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp               Model&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              Accuracy
-<br>Diabetes&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	  Machine Learning Model&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	  95.25%
-<br>Parkinson's&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     Machine Learning Model&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	  97.44%
-<br>Heart Disease&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	  Machine Learning Model&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     97.56%
+<br>Disease             Model&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              Accuracy
+<br>Diabetes	  Machine Learning Model	  95.25%
+<br>Parkinsons     Machine Learning Model	  97.44%
+<br>Heart Disease Machine Learning Model     97.56%
 
 <h2><b>Steps to run this application in your system</b></h2>
 
@@ -21,7 +21,7 @@ This webApp is developed using Flask.This webApp predicts following diseases<br>
 <br>2.Open command prompt in the downloaded folder.<br>
 <br>3.Create a virtual environment<br>
 <br>4.Install all the dependencies using this command in your command prompt:
-        <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppip install -r requirements.txt<br>
+        <br><p align="center">pip install -r requirements.txt</p><br>
 <br>5.Run the application using this command:
-          <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp python app.py
+        <p align="center">  <br> python app.py</p
 
