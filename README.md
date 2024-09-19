@@ -9,11 +9,14 @@ This webApp is developed using Flask.This webApp predicts following diseases<br>
 <br>.Diabetes
 
 <h2><b>Models with their accuracy</b></h2>
-
-<br>Disease             Model&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp              Accuracy
-<br>Diabetes	  Machine Learning Model	  95.25%
-<br>Parkinsons     Machine Learning Model	  97.44%
-<br>Heart Disease Machine Learning Model     97.56%
+Tables
+<br>|Disease       |Model                   | Accuracy
+--------------------------------------------------
+<br>|Diabetes	     |Machine Learning Model	| 95.25%
+-------------------------------------------------------
+<br>|Parkinsons    |Machine Learning Model	| 97.44%
+-------------------------------------------------------
+<br>|Heart Disease |Machine Learning Model  | 97.56%
 
 <h2><b>Steps to run this application in your system</b></h2>
 
