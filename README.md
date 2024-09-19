@@ -24,18 +24,11 @@ Tables
 <br>2.Open command prompt in the downloaded folder.<br>
 <br>3.Create a virtual environment<br>
 <br>4.Install all the dependencies using this command in your command prompt:
-<button onClick={() => clipboard.copy('pip install -r requirements.txt')} />;    
-}
-}<p align="center">pip install -r requirements.txt</p><br>
+```bash
+pip install -r requirements.tx
+```
+
 <br>5.Run the application using this command:
-function CopyText() {
-  const clipboard = useClipboard();
-  return (
-    <div>
-      <input ref={clipboard.target} />
-      <button onClick={clipboard.copy}>python app.py</button>
-    </div>
-  );
-}
+
 
 
