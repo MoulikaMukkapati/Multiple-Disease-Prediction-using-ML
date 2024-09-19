@@ -1,19 +1,19 @@
 # Multiple-Disease-Prediction-using-stacking classifier
 what is stacking classifier?
-Stacking is a machine learning ensemble technique that combines multiple models to form a single powerful model. The individual models are trained on different subsets of the data using some type of cross-validation technique, such as k-fold cross-validation, and then the predictions from each model are combined to make the final prediction. This approach can often lead to improved performance, as the different models can learn complementary information. Stacking is also useful for dealing with imbalanced datasets, as it can reduce the variance of the predictions. In addition, stacking can be used to combine different types of models, such as decision trees and neural networks. However, stacking is a more complex approach than some other machine learning techniques, and so it is important to carefully tune the individual models and the way in which they are combined.
+.Stacking is a machine learning ensemble technique that combines multiple models to form a single powerful model. The individual models are trained on different subsets of the data using some type of cross-validation technique, such as k-fold cross-validation, and then the predictions from each model are combined to make the final prediction. This approach can often lead to improved performance, as the different models can learn complementary information. Stacking is also useful for dealing with imbalanced datasets, as it can reduce the variance of the predictions. In addition, stacking can be used to combine different types of models, such as decision trees and neural networks. However, stacking is a more complex approach than some other machine learning techniques, and so it is important to carefully tune the individual models and the way in which they are combined.
 About
 ------------------------------------------------------------------------------
 This webApp is developed using Flask.This webApp predicts following diseases
-1.Heart Disease
-2.Parkinsons Disease
-3.Diabetes
-------------------------------------------------------------------------------
+.Heart Disease
+.Parkinsons Disease
+.Diabetes
+-----------------------------------------------------------------------------
 Models with their accuracy
 ------------------------------------------------------------------------------
 Disease  	          Type of Model	       Accuracy
-Diabetes	      Machine Learning Model	  95.25%
-Parkinson's     Machine Learning Model	  97.44%
-Heart Disease	  Machine Learning Mode     97.56%
+.Diabetes	      Machine Learning Model	  95.25%
+.Parkinson's     Machine Learning Model	  97.44%
+.Heart Disease	  Machine Learning Mode     97.56%
 ------------------------------------------------------------------------------
 Steps to run this application in your system
 ------------------------------------------------------------------------------
